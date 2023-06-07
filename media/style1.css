@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,200&family=Raleway:wght@200;500&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    padding-top: 40px;
+    text-align: center;
+}
+.nav ul li{
+    display: inline;
+}
+.nav ul li a{
+    padding-top: 20px;
+    margin-left: 70px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #f4cb1e;
+}
+@media only screen and (max-width: 600px) {
+    .nav ul li a{
+        display: block;
+        height: auto;
+    }
+    .nav{
+        height: 300px;
+    }
+  }
+  .broder{
+    height: 20px;
+    width: 100%;
+    background-color: #666666;
+  }
+  @media only screen and (max-width: 600px){
+    .broder{
+        height: 15px;
+        width: 100%;
+    }
+  }
+  .far{
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 10px;
+    background-image: url(.//images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    position: relative;
+    
+}
+@media only screen and (max-width: 600px){
+    .far background-image{
+        height: 1000px;
+        width: 100%;
+    }
+}
+.com{
+    height: 200px;
+    width: 90%;
+    /* background-color: brown; */
+    margin-left: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+.com h1{
+    font-size: 100px;
+}
+.com p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+    .com{
+        height: auto;
+        width: 70%;
+    }
+    .com h1{
+        font-size: 40px;
+    }
+}
+.dis{
+    /* background-color: aqua; */
+    height: 50px;
+    width: 15%;
+    margin: 0px auto;
+    border-radius: 30px 30px 30px 30px;
+    border: #f4cb1e 3px solid;
+    color: #ffffff;
+    text-align: center;
+}
+.dis p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.dis:hover{
+    background-color:#222222;
+}
+@media only screen and (max-width: 600px){
+    .dis{
+        height: auto;
+        width: 25%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .dis p{
+        padding-bottom: 10px;
+    }
+}
+.box1{
+    height: 250px;
+    width: 25%;
+    background-color: aqua;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-image: url(.//images/img1.jpg);
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px){
+    .box1{
+      margin-top: 100px;
+      width: 70%;
+      margin-left: 60px;
+    }
+}
+.box2{
+    height: 250px;
+    width: 25%;
+    background-color: aqua;
+    margin-left: 500px;
+    position: absolute;
+    bottom: 0px;
+    top: 485px;
+    background-image: url(.//images/img2.jpg);
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px){
+    .box2{
+      margin-top: 450px;
+      width: 70%;
+      margin-left: 60px;
+
+    }
+}
+.box3{
+    height: 250px;
+    width: 25%;
+    background-color: aqua;
+    position: absolute;
+    left: 930px;
+    bottom: 0px;
+    top: 485px;
+    background-image: url(.//images/img3.jpg);
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px){
+    .box3{
+      margin-top: 720px;
+      width: 70%;
+      position: absolute;
+      left: 60px;
+
+    }
+}
+.world{
+    height: 300px;
+    width: 90%;
+    /* background-color: aqua; */
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 70px;
+}
+@media only screen and (max-width: 600px){
+    .world{
+        margin-top: 750px;
+        width: 80%;
+        font-size: 30px;
+        height: 150px;
+    }
+}
+.are{
+    height: 300px;
+    text-align: center;
+    width: 90%;
+    background-image: url(.//images/top_head.png);
+    font-size: 30px;
+    margin: 0px auto;
+    color: #ffffff;
+}
+@media only screen and (max-width: 600px){
+    .are{
+        height: 450px;
+        font-size: 16.5px;
+    }
+    
+}
+.why{
+    height: 700px;
+    width: 100%;
+    background-color: #222222;
+    margin-top: 150px;
+    color: #ffffff;
+}
+@media only screen and (max-width: 600px){
+    .why{
+        margin-top: 380px;
+        height: 800px;
+        color: #ffffff;
+    }
+    .why h3{
+        font-size: 15px;
+        /* margin-left: 80px; */
+    }
+    .why p{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    
+}
+.why p1{
+    font-size: 20px;
+    margin-left: 80px;
+}
+.why h1{
+    font-size: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 80px;
+}
+.exe{
+    height: 150px;
+    width: 20%;
+    /* background-color: aqua; */
+    margin-left: 100px;
+    margin-top: 30px;
+    color: #ffffff;
+    position: relative;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    background-color: #f4cb1e;
+    background-image: url(.//images/icon1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius:  30px 30px 30px 30px;
+    position: absolute;
+
+    
+}
+.exe h2{
+    margin-left: 80px;
+}
+@media only screen and (max-width: 600px){
+    .exe{
+        height: 600px;
+        width: 70%;
+        float: left;
+        margin-right: 30px;
+    }
+}
+.exc1 h2{
+    margin-left: 180px;
+}
+.exc1 p{
+    margin-left: 180px;
+    
+}
+.icon2{
+    height: 70px;
+    width: 70px;
+    background-color: #f4cb1e;
+    background-image: url(.//images/icon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius:  30px 30px 30px 30px;
+    position: absolute;
+    left: 100px;
+}
+@media only screen and (max-width: 600px){
+    .exe1{
+        height: 600px;
+        width: 70%;
+        float: left;
+        margin-right: 30px;
+        position: relative;
+    }
+
+}
